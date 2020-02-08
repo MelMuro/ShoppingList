@@ -1,0 +1,17 @@
+﻿@model ShoppingList.Models.ShoppingList;
+
+<h1>@Model.ListName</h1>
+<ul>
+    @foreach (var item in Model.ListContent)
+    {
+        <li>@item</li>
+    }
+</ul>
+
+<h1>Not Found Ingredients:</h1>
+<ul>
+    @foreach (var item in Model.NotFoundIngredients)
+    {
+        <li>@item</li>
+    }
+</ul>
