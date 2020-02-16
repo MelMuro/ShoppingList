@@ -5,7 +5,8 @@
 <p>Select file and add numbers of selected days separated by comma e.g. 1,3,5</p>
 <form asp-action="CreateShoppingList" asp-controller="ShoppingList" enctype="multipart/form-data">
     <label asp-for="SelectedFile"></label>
-    <input asp-for="SelectedFile" required  accept=".xlsx"/><br />
+    <input asp-for="SelectedFile" required accept=".xlsx" />
+    <span asp-validation-for="SelectedFile"></span><br />
     <label asp-for="SelectedDays"></label>
     <input asp-for="SelectedDays" type="text" placeholder="e.g. 1,2,3,4" pattern="^\d+(,\d+)*$" required /><br /><br />
     <input type="submit" />
