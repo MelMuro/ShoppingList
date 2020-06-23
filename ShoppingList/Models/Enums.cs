@@ -135,6 +135,8 @@ namespace ShoppingList.Models
             duraznoAmarillo,
             [StringValue("ejote")]
             ejote,
+            [StringValue("elote")]
+            elote,
             [StringValue("esparrago")]
             esparrago,
             [StringValue("espinaca")]
@@ -169,6 +171,8 @@ namespace ShoppingList.Models
             jamonDePechugaDePavo,
             [StringValue("jitomate")]
             jitomate,
+            [StringValue("jicama")]
+            jicama,
             [StringValue("kiwi")]
             kiwi,
             [StringValue("leche de almendra")]
@@ -225,6 +229,8 @@ namespace ShoppingList.Models
             nopalCocido,
             [StringValue("nueces")]
             nueces,
+            [StringValue("nuez de la india")]
+            nuezDeLaIndia,
             [StringValue("nutella")]
             nutella,
             [StringValue("pan birote")]
@@ -235,6 +241,8 @@ namespace ShoppingList.Models
             panPita,
             [StringValue("pan sin azucar")]
             panSinAzucar,
+            [StringValue("pan thins")]
+            panThins,
             [StringValue("papa")]
             papa,
             [StringValue("papaya")]
@@ -281,8 +289,6 @@ namespace ShoppingList.Models
             proteina,
             [StringValue("queso cottage")]
             quesoCottage,
-            [StringValue("queso fresco")]
-            quesoFresco,
             [StringValue("queso panela")]
             quesoPanela,
             [StringValue("queso oaxaca")]
@@ -291,6 +297,8 @@ namespace ShoppingList.Models
             quinoa,
             [StringValue("rabano")]
             rabano,
+            [StringValue("ramen")]
+            ramen,
             [StringValue("repollo")]
             repollo,
             [StringValue("rice cake")]

@@ -74,7 +74,9 @@ namespace ShoppingList.Extensions
             if (!value.Contains(Enums.Ingredient.panBirote.GetStringValue()) && 
                 !value.Contains(Enums.Ingredient.panIntegral.GetStringValue()) &&
                 !value.Contains(Enums.Ingredient.panPita.GetStringValue()) &&
-                !value.Contains(Enums.Ingredient.panSinAzucar.GetStringValue()))
+                !value.Contains(Enums.Ingredient.panSinAzucar.GetStringValue()) &&
+                !value.Contains(Enums.Ingredient.panThins.GetStringValue()) &&
+                !value.Contains(Enums.Ingredient.quesoPanela.GetStringValue()))
             {
                 value = value.Replace("pan", Enums.Ingredient.panSinAzucar.GetStringValue());
             }
