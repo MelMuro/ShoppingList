@@ -251,7 +251,7 @@ namespace ShoppingList.Models
             papelDeArroz,
             [StringValue("pasta")]
             pasta,
-            [StringValue("pavo")]
+            [StringValue("carne de pavo")]
             pavo,
             [StringValue("pavo molido")]
             pavoMolido,

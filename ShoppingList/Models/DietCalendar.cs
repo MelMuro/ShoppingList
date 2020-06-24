@@ -58,7 +58,7 @@ namespace ShoppingList.Models
                         string cellStringValue = GetSanitizedCellString(worksheet.Cells[row, col].Value.ToString());
                         if (string.IsNullOrWhiteSpace(cellStringValue)) continue;
 
-                        if (cellStringValue.Contains("dia"))
+                        if (Regex.Match(cellStringValue, @"^(dia)\s\d+").Success)
                         {
                             dayNumber = GetDayNumber(cellStringValue);
                         }
@@ -156,7 +156,7 @@ namespace ShoppingList.Models
 
             foreach (string unitEnum in Enum.GetNames(typeof(Enums.Unit)))
             {
-                if (cellStringValue.Contains(unitEnum))
+                if (Regex.IsMatch(cellStringValue, @$"\s({unitEnum})\s"))
                 {
                     unit = (Enums.Unit)Enum.Parse(typeof(Enums.Unit), unitEnum);
                     break;

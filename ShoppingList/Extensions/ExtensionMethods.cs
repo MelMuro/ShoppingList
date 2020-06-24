@@ -81,6 +81,12 @@ namespace ShoppingList.Extensions
                 value = value.Replace("pan", Enums.Ingredient.panSinAzucar.GetStringValue());
             }
 
+            if (!value.Contains(Enums.Ingredient.tocinoDePavo.GetStringValue()) &&
+                !value.Contains(Enums.Ingredient.pavoMolido.GetStringValue()))
+            {
+                value = value.Replace("pavo", Enums.Ingredient.pavo.GetStringValue());
+            }
+
             return value;
         }
     }
