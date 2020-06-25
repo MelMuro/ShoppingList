@@ -82,7 +82,9 @@ namespace ShoppingList.Extensions
             }
 
             if (!value.Contains(Enums.Ingredient.tocinoDePavo.GetStringValue()) &&
-                !value.Contains(Enums.Ingredient.pavoMolido.GetStringValue()))
+                !value.Contains(Enums.Ingredient.pavoMolido.GetStringValue()) &&
+                !value.Contains(Enums.Ingredient.jamonDePavo.GetStringValue()) &&
+                !value.Contains(Enums.Ingredient.jamonDePechugaDePavo.GetStringValue()))
             {
                 value = value.Replace("pavo", Enums.Ingredient.pavo.GetStringValue());
             }
