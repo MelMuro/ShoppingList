@@ -1,0 +1,17 @@
+﻿@model ShoppingList.Models.FoodCalculator;
+
+<h1>Food equivalents for @Model.Quantity @Model.FoodName</h1>
+<ul>
+    @if (Model.GetEquivalentTable().Count > 0)
+    {
+        foreach (var item in Model.GetEquivalentTable())
+        {
+            <li>@item</li>
+        }
+    }
+    else
+    {
+        <li>No equivalents found!</li>
+    }
+</ul>
+<p>*Are approximates</p>

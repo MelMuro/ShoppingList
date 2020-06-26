@@ -1,0 +1,12 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model ShoppingList.Models.ViewModels.FoodCalculatorViewModel
+
+<h1>Food Calculator</h1>
+<p>Enter food and quantity to generate equivalence table.</p>
+<form asp-action="GetFoodEquivalence" asp-controller="FoodCalculator">
+    <label asp-for="FoodName"></label>
+    <select asp-for="FoodName" asp-items="Model.Categories" required></select>
+    <label asp-for="Quantity"></label>
+    <input asp-for="Quantity" placeholder="Quantity" required /><br /><br />    
+    <input type="submit" />
+</form>
