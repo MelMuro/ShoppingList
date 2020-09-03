@@ -29,6 +29,10 @@ namespace ShoppingList.Extensions
                 .Replace("nieve", Enums.Ingredient.nieveSinAzucar.GetStringValue())
                 .Replace("chuletas", Enums.Ingredient.chuletaAhumada.GetStringValue())
                 .Replace("tostada", Enums.Ingredient.tostadasHorneadas.GetStringValue())
+                .Replace("arandanos", Enums.Ingredient.arandano.GetStringValue())
+                .Replace("garbanzos", Enums.Ingredient.garbanzo.GetStringValue())
+                .Replace("jalapeños", Enums.Ingredient.chileJalapeño.GetStringValue())
+                .Replace("tortillas", "tortilla")
                 .Replace("almendras", "almendra");
 
             if (!value.Contains(Enums.Ingredient.pechugaDePollo.GetStringValue()) &&
@@ -84,9 +88,18 @@ namespace ShoppingList.Extensions
             if (!value.Contains(Enums.Ingredient.tocinoDePavo.GetStringValue()) &&
                 !value.Contains(Enums.Ingredient.pavoMolido.GetStringValue()) &&
                 !value.Contains(Enums.Ingredient.jamonDePavo.GetStringValue()) &&
-                !value.Contains(Enums.Ingredient.jamonDePechugaDePavo.GetStringValue()))
+                !value.Contains(Enums.Ingredient.jamonDePechugaDePavo.GetStringValue()) &&
+                !value.Contains(Enums.Ingredient.pavoAlPastor.GetStringValue()))
             {
                 value = value.Replace("pavo", Enums.Ingredient.pavo.GetStringValue());
+            }
+
+            if (!value.Contains(Enums.Ingredient.quesoCottage.GetStringValue()) &&
+                !value.Contains(Enums.Ingredient.quesoOaxaca.GetStringValue()) &&
+                !value.Contains(Enums.Ingredient.quesoVegano.GetStringValue()) &&
+                !value.Contains(Enums.Ingredient.quesoPanela.GetStringValue()))
+            {
+                value = value.Replace("queso", Enums.Ingredient.quesoPanela.GetStringValue());
             }
 
             return value;

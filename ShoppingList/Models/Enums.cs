@@ -63,6 +63,8 @@ namespace ShoppingList.Models
             azucarMascabado,
             [StringValue("berries")]
             berries,
+            [StringValue("betabel")]
+            betabel,
             [StringValue("bistec de res")]
             bistecDeRes,
             [StringValue("brocoli")]
@@ -87,12 +89,22 @@ namespace ShoppingList.Models
             carneMolida,
             [StringValue("carne promedio")]
             carnePromedio,
+            [StringValue("catsup")]
+            catsup,
             [StringValue("cebada")]
             cebada,
             [StringValue("cebolla")]
             cebolla,
+            [StringValue("cereal")]
+            cereal,
             [StringValue("champiñon")]
             champiñon,
+            [StringValue("chayore")]
+            chayote,
+            [StringValue("chamoy sin azucar")]
+            chamoySinAzucar,
+            [StringValue("chips de pita")]
+            chipsDePita,
             [StringValue("cheerios")]
             cheerios,
             [StringValue("chia")]
@@ -109,8 +121,16 @@ namespace ShoppingList.Models
             chileMorron,
             [StringValue("chile verde")]
             chileVerde,
+            [StringValue("chile serrano")]
+            chileSerrano,
+            [StringValue("chile quebrado")]
+            chileQuebrado,
+            [StringValue("chiltepines")]
+            chiltepines,
             [StringValue("chocolate turin sin azucar")]
             chocolateTurinSinAzucar,
+            [StringValue("chocolate")]
+            chocolate,
             [StringValue("chuleta ahumada")]
             chuletaAhumada,
             [StringValue("cilantro")]
@@ -123,10 +143,8 @@ namespace ShoppingList.Models
             clarasDeHuevo,
             [StringValue("cocoa")]
             cocoa,
-            [StringValue("col")]
-            col,
-            [StringValue("col morada")]
-            colMorada,
+            [StringValue("coco rallado")]
+            cocoRallado,
             [StringValue("crema de cacahuate")]
             cremaDeCacahuate,
             [StringValue("datil")]
@@ -137,6 +155,8 @@ namespace ShoppingList.Models
             ejote,
             [StringValue("elote")]
             elote,
+            [StringValue("elotitos")]
+            elotitos,
             [StringValue("esparrago")]
             esparrago,
             [StringValue("espinaca")]
@@ -149,6 +169,8 @@ namespace ShoppingList.Models
             galletasHabaneras,
             [StringValue("galletas marias")]
             galletasMarias,
+            [StringValue("garbanzo")]
+            garbanzo,
             [StringValue("garbanzo cocido")]
             garbanzoCocido,
             [StringValue("gelatina light")]
@@ -159,8 +181,12 @@ namespace ShoppingList.Models
             guayaba,
             [StringValue("harina de almendra")]
             harinaDeAlmendra,
+            [StringValue("harina de avena")]
+            harinaDeAvena,
             [StringValue("higo")]
             higo,
+            [StringValue("hoja de arroz")]
+            hojaDeArroz,
             [StringValue("huevo")]
             huevo,
             [StringValue("hummus")]
@@ -187,6 +213,8 @@ namespace ShoppingList.Models
             lecheSemidescremada,
             [StringValue("lechuga")]
             lechuga,
+            [StringValue("lentejas")]
+            lentejas,
             [StringValue("lentejas cocidas")]
             lentejasCocidas,
             [StringValue("limon")]
@@ -213,6 +241,8 @@ namespace ShoppingList.Models
             mediaCrema,
             [StringValue("melon picado")]
             melonPicado,
+            [StringValue("mermelada")]
+            mermelada,
             [StringValue("mermelada sin azucar")]
             mermeladaSinAzucar,
             [StringValue("miel")]
@@ -233,6 +263,8 @@ namespace ShoppingList.Models
             nuezDeLaIndia,
             [StringValue("nutella")]
             nutella,
+            [StringValue("obleas de amaranto")]
+            obleasDeAmaranto,
             [StringValue("pan birote")]
             panBirote,
             [StringValue("pan integral")]
@@ -251,10 +283,14 @@ namespace ShoppingList.Models
             papelDeArroz,
             [StringValue("pasta")]
             pasta,
+            [StringValue("pasas")]
+            pasas,
             [StringValue("carne de pavo")]
             pavo,
             [StringValue("pavo molido")]
             pavoMolido,
+            [StringValue("pavo al pastor")]
+            pavoAlPastor,
             [StringValue("pechuga de pollo")]
             pechugaDePollo,
             [StringValue("peperoni")]
@@ -293,6 +329,8 @@ namespace ShoppingList.Models
             quesoPanela,
             [StringValue("queso oaxaca")]
             quesoOaxaca,
+            [StringValue("queso vegano")]
+            quesoVegano,
             [StringValue("quinoa")]
             quinoa,
             [StringValue("rabano")]
@@ -301,6 +339,8 @@ namespace ShoppingList.Models
             ramen,
             [StringValue("repollo")]
             repollo,
+            [StringValue("repollo morado")]
+            repolloMorado,
             [StringValue("rice cake")]
             riceCake,
             [StringValue("salmon")]
@@ -309,12 +349,18 @@ namespace ShoppingList.Models
             salmonAhumado,
             [StringValue("salsa buffalo")]
             salsaBuffalo,
+            [StringValue("salsa barbeque")]
+            salsaBarbeque,
             [StringValue("salsa pato")]
             salsaPato,
             [StringValue("sandia")]
             sandia,
+            [StringValue("siracha")]
+            siracha,
             [StringValue("splenda")]
             splenda,
+            [StringValue("surimi")]
+            surimi,
             [StringValue("stevia")]
             stevia,
             [StringValue("tiritas horneadas")]
@@ -327,8 +373,12 @@ namespace ShoppingList.Models
             tomate,
             [StringValue("toronja")]
             toronja,
-            [StringValue("tortillas de maiz")]
-            tortillasDeMaiz,
+            [StringValue("tortilla de maiz")]
+            tortillaDeMaiz,
+            [StringValue("tortilla multigrano")]
+            tortillaMultigrano,
+            [StringValue("tortilla de nopal")]
+            tortillaDeNopal,
             [StringValue("tostadas horneadas")]
             tostadasHorneadas,
             [StringValue("uvas")]
