@@ -29,8 +29,6 @@ namespace ShoppingList.Extensions
                 .Replace("nieve", Enums.Ingredient.nieveSinAzucar.GetStringValue())
                 .Replace("chuletas", Enums.Ingredient.chuletaAhumada.GetStringValue())
                 .Replace("tostada", Enums.Ingredient.tostadasHorneadas.GetStringValue())
-                .Replace("arandanos", Enums.Ingredient.arandano.GetStringValue())
-                .Replace("garbanzos", Enums.Ingredient.garbanzo.GetStringValue())
                 .Replace("jalapeños", Enums.Ingredient.chileJalapeño.GetStringValue())
                 .Replace("tortillas", "tortilla")
                 .Replace("almendras", "almendra");
