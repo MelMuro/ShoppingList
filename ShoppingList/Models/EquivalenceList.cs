@@ -7,6 +7,7 @@ namespace ShoppingList.Models
         public static List<Ingredient> Fruits = new List<Ingredient>
         {
             new Ingredient("arandano fresco", 1.5m, Enums.Unit.taza),
+            new Ingredient("arandano fresco", 20, Enums.Unit.gr),
             new Ingredient("ciruela", 0.5m),
             new Ingredient("durazno amarillo", 2),
             new Ingredient("fresa rebanada", 1, Enums.Unit.taza),
@@ -21,6 +22,7 @@ namespace ShoppingList.Models
             new Ingredient("naranja", 2),
             new Ingredient("papaya", 1, Enums.Unit.taza),
             new Ingredient("pasas", 10),
+            new Ingredient("pasas", 20, Enums.Unit.gr),
             new Ingredient("pera", 0.5m),
             new Ingredient("piña rebanada", 0.75m, Enums.Unit.taza),
             new Ingredient("platano", 0.5m),
@@ -82,8 +84,9 @@ namespace ShoppingList.Models
             new Ingredient("cheerios", 25, Enums.Unit.gr),
             new Ingredient("galletas habaneras", 4),
             new Ingredient("galletas maria", 4),
-            new Ingredient("granola sin azucar", .33m, Enums.Unit.taza),
+            new Ingredient("granola sin azucar", 30, Enums.Unit.gr),
             new Ingredient("obleas de amaranto", 80, Enums.Unit.gr),
+            new Ingredient("obleas de amaranto", 33, Enums.Unit.gr),
             new Ingredient("pan birote", .33m),
             new Ingredient("pan integral", 1),
             new Ingredient("pan sin azucar", 1),
@@ -96,6 +99,7 @@ namespace ShoppingList.Models
             new Ingredient("quinoa cruda*", .13m, Enums.Unit.taza),
             new Ingredient("tortilla de maiz", 1),
             new Ingredient("tortilla de maiz horneada o microondas", 2),
+            new Ingredient("tortilla de nopal", 1.5m),
             new Ingredient("tostadas horneadas", 2),
             new Ingredient("totopos horneados", 26, Enums.Unit.gr)
         };
